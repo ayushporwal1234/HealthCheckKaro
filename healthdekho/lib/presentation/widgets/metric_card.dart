@@ -10,11 +10,11 @@ class MetricCard extends StatelessWidget {
   Color getStatusColor() {
     switch (metric.status) {
       case "low":
-        return Colors.red.shade100;
+        return Colors.red.shade200;
       case "high":
-        return Colors.orange.shade100;
+        return Colors.orange.shade200;
       default:
-        return Colors.green.shade100;
+        return Colors.green.shade200;
     }
   }
 
